@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACD6C021B84520A00EDFFA5 /* whois.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FACD6C011B84520A00EDFFA5 /* whois.h */; };
+		FACD6C041B84520A00EDFFA5 /* whois.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD6C031B84520A00EDFFA5 /* whois.m */; };
+		FACD6C0A1B84520B00EDFFA5 /* libwhois.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD6BFE1B84520A00EDFFA5 /* libwhois.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACD6C0B1B84520B00EDFFA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACD6BF61B84520A00EDFFA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACD6BFD1B84520A00EDFFA5;
+			remoteInfo = whois;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FACD6BFC1B84520A00EDFFA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FACD6C021B84520A00EDFFA5 /* whois.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FACD6BFE1B84520A00EDFFA5 /* libwhois.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwhois.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD6C011B84520A00EDFFA5 /* whois.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = whois.h; sourceTree = "<group>"; };
+		FACD6C031B84520A00EDFFA5 /* whois.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whois.m; sourceTree = "<group>"; };
+		FACD6C091B84520B00EDFFA5 /* whoisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whoisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD6C0F1B84520B00EDFFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACD6BFB1B84520A00EDFFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD6C061B84520B00EDFFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD6C0A1B84520B00EDFFA5 /* libwhois.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACD6BF51B84520A00EDFFA5 = {
+			isa = PBXGroup;
+			children = (
+				FACD6C001B84520A00EDFFA5 /* whois */,
+				FACD6C0D1B84520B00EDFFA5 /* whoisTests */,
+				FACD6BFF1B84520A00EDFFA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACD6BFF1B84520A00EDFFA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACD6BFE1B84520A00EDFFA5 /* libwhois.a */,
+				FACD6C091B84520B00EDFFA5 /* whoisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACD6C001B84520A00EDFFA5 /* whois */ = {
+			isa = PBXGroup;
+			children = (
+				FACD6C011B84520A00EDFFA5 /* whois.h */,
+				FACD6C031B84520A00EDFFA5 /* whois.m */,
+			);
+			path = whois;
+			sourceTree = "<group>";
+		};
+		FACD6C0D1B84520B00EDFFA5 /* whoisTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACD6C0E1B84520B00EDFFA5 /* Supporting Files */,
+			);
+			path = whoisTests;
+			sourceTree = "<group>";
+		};
+		FACD6C0E1B84520B00EDFFA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACD6C0F1B84520B00EDFFA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACD6BFD1B84520A00EDFFA5 /* whois */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD6C121B84520B00EDFFA5 /* Build configuration list for PBXNativeTarget "whois" */;
+			buildPhases = (
+				FACD6BFA1B84520A00EDFFA5 /* Sources */,
+				FACD6BFB1B84520A00EDFFA5 /* Frameworks */,
+				FACD6BFC1B84520A00EDFFA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whois;
+			productName = whois;
+			productReference = FACD6BFE1B84520A00EDFFA5 /* libwhois.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FACD6C081B84520B00EDFFA5 /* whoisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD6C151B84520B00EDFFA5 /* Build configuration list for PBXNativeTarget "whoisTests" */;
+			buildPhases = (
+				FACD6C051B84520B00EDFFA5 /* Sources */,
+				FACD6C061B84520B00EDFFA5 /* Frameworks */,
+				FACD6C071B84520B00EDFFA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACD6C0C1B84520B00EDFFA5 /* PBXTargetDependency */,
+			);
+			name = whoisTests;
+			productName = whoisTests;
+			productReference = FACD6C091B84520B00EDFFA5 /* whoisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACD6BF61B84520A00EDFFA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tagrem;
+				TargetAttributes = {
+					FACD6BFD1B84520A00EDFFA5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FACD6C081B84520B00EDFFA5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = FACD6BF91B84520A00EDFFA5 /* Build configuration list for PBXProject "whois" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FACD6BF51B84520A00EDFFA5;
+			productRefGroup = FACD6BFF1B84520A00EDFFA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACD6BFD1B84520A00EDFFA5 /* whois */,
+				FACD6C081B84520B00EDFFA5 /* whoisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACD6C071B84520B00EDFFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACD6BFA1B84520A00EDFFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD6C041B84520A00EDFFA5 /* whois.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD6C051B84520B00EDFFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACD6C0C1B84520B00EDFFA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACD6BFD1B84520A00EDFFA5 /* whois */;
+			targetProxy = FACD6C0B1B84520B00EDFFA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FACD6C101B84520B00EDFFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FACD6C111B84520B00EDFFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACD6C131B84520B00EDFFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64 armv7 x86_64";
+			};
+			name = Debug;
+		};
+		FACD6C141B84520B00EDFFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64 armv7 x86_64";
+			};
+			name = Release;
+		};
+		FACD6C161B84520B00EDFFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = whoisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tagrem.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACD6C171B84520B00EDFFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = whoisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tagrem.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACD6BF91B84520A00EDFFA5 /* Build configuration list for PBXProject "whois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD6C101B84520B00EDFFA5 /* Debug */,
+				FACD6C111B84520B00EDFFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACD6C121B84520B00EDFFA5 /* Build configuration list for PBXNativeTarget "whois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD6C131B84520B00EDFFA5 /* Debug */,
+				FACD6C141B84520B00EDFFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACD6C151B84520B00EDFFA5 /* Build configuration list for PBXNativeTarget "whoisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD6C161B84520B00EDFFA5 /* Debug */,
+				FACD6C171B84520B00EDFFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACD6BF61B84520A00EDFFA5 /* Project object */;
+}
